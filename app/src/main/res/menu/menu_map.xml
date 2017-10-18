@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/lbd"
+        android:enabled="false"
+        android:title="Loại bản đồ" />
+
+    <item
+        android:id="@+id/giaothong"
+        android:title="Giao thông"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/vetinh"
+        android:title="Vệ tinh"
+        android:enabled="true"/>
+
+    <!--............................................................-->
+
+    <item
+        android:id="@+id/bk"
+        android:title="Bán kính"
+        android:enabled="false"/>
+
+    <item
+        android:id="@+id/km5"
+        android:title="5km"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/km10"
+        android:title="10km"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/km15"
+        android:title="15km"
+        android:enabled="true"/>
+
+</menu>

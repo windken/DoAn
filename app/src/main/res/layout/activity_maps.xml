@@ -1,0 +1,71 @@
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <fragment android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.wind.doan.MapsActivity"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/ten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:background="#c3ecdfbb"
+            android:layout_above="@+id/diachi"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/diachi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:background="#c3ecdfbb"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentStart="true"
+            android:maxLines="5"/>
+
+        <Button
+            android:id="@+id/list"
+            android:layout_width="39dp"
+            android:layout_height="100dp"
+            android:background="#c3ffffff"
+            android:text=">"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="11dp"
+            android:onClick="showlish"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:id="@+id/setting"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        app:srcCompat="@drawable/settings"
+        android:scaleType="fitXY"
+        android:background="#aabfdef6"
+        android:src="@drawable/settings"
+        android:layout_marginBottom="12dp"
+        android:layout_above="@+id/ten"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+
+    <!--tools:context="com.example.wind.doan.MapsActivity" />-->

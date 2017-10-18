@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.wind.doan.List.DongDL"
+    android:orientation="horizontal"
+    android:elevation="10dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/namePlaces"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:text="Ngân hàng Sacombank"
+            android:textColor="#054f18"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/addressPlaces"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:text="150 Nguyễn Thị Tần, phường 2, quận 8, tp Hồ Chí Minh"
+            android:textColor="#374"
+            android:textSize="15dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="vertical">-->
+
+        <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/imagePlaces"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:scaleType="fitCenter"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:src="@drawable/bg">&ndash;&gt;-->
+        <!--&lt;!&ndash;</ImageView>&ndash;&gt;-->
+
+    <!--</LinearLayout>-->
+
+</LinearLayout>
